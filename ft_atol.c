@@ -6,7 +6,7 @@
 /*   By: jfaure <jfaure@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 03:24:24 by jfaure            #+#    #+#             */
-/*   Updated: 2023/10/28 01:02:50 by jfaure           ###   ########.fr       */
+/*   Updated: 2023/11/15 23:22:36 by jfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ static int	ft_isspace(char nptr)
 long	ft_atol(const char *nptr)
 {
 	long	convertednum;
-	int	i;
-	int	sign;
+	int		i;
+	int		sign;
 
 	i = 0;
 	sign = 1;
