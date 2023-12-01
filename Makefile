@@ -33,7 +33,8 @@ SRC	=		ft_isalnum.c \
 			ft_putstr_fd.c \
 			ft_putendl_fd.c \
 			ft_putnbr_fd.c \
-			ft_atol.c
+			ft_atol.c \
+			ft_putnbr_base_fd.c
 OBJS = $(SRC:%.c=%.o)
 BONUS_SRC = ft_lstnew.c \
 			ft_lstadd_front.c \

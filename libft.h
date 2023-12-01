@@ -6,7 +6,7 @@
 /*   By: jfaure <jfaure@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 23:58:26 by jfaure            #+#    #+#             */
-/*   Updated: 2023/11/18 05:04:32 by jfaure           ###   ########.fr       */
+/*   Updated: 2023/12/01 06:13:21 by jfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,4 +70,5 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 // New additions
 long	ft_atol(const char *nptr);
+int		ft_putnbr_base_fd(size_t l, const char *base, int fd);
 #endif
