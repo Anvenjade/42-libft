@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_base_fd.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jfaure <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: jfaure <jfaure@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/01 06:11:06 by jfaure            #+#    #+#             */
-/*   Updated: 2023/12/01 06:11:53 by jfaure           ###   ########.fr       */
+/*   Updated: 2023/12/07 16:51:23 by jfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_putnbr_base_fd(size_t l, const char *base, int fd)
 {
