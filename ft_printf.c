@@ -6,12 +6,11 @@
 /*   By: jfaure <jfaure@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 20:02:44 by jfaure            #+#    #+#             */
-/*   Updated: 2023/11/20 17:40:11 by jfaure           ###   ########.fr       */
+/*   Updated: 2024/01/27 11:30:59 by jfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/libft.h"
-#include "ft_printf.h"
+#include "libft.h"
 
 static int	(*g_ft_print_function_table[9])(va_list) = {
 	ft_printf_c,

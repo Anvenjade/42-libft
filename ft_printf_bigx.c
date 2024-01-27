@@ -6,11 +6,13 @@
 /*   By: jfaure <jfaure@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 20:34:42 by jfaure            #+#    #+#             */
-/*   Updated: 2023/11/18 04:57:34 by jfaure           ###   ########.fr       */
+/*   Updated: 2024/01/27 11:31:10 by jfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/libft.h"
+
+#include "libft.h"
+
 
 static int	ft_hexarecursive(long l, char *hexatable)
 {

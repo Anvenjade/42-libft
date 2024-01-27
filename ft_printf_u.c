@@ -6,11 +6,13 @@
 /*   By: jfaure <jfaure@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 20:31:32 by jfaure            #+#    #+#             */
-/*   Updated: 2023/11/18 05:04:16 by jfaure           ###   ########.fr       */
+/*   Updated: 2024/01/27 11:31:36 by jfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/libft.h"
+
+#include "libft.h"
+
 
 int	ft_printf_u(va_list arg)
 {
